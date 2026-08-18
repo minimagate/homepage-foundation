@@ -1,4 +1,0 @@
-interface:
-  display_name: "Homepage Network"
-  short_description: "Work safely across the four homepage repos"
-  default_prompt: "Use $homepage-network to coordinate a change across the homepage repositories."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Shared Homepage Styles"
-  short_description: "Maintain the cross-site editorial CSS system"
-  default_prompt: "Use $shared-homepage-styles to make a consistent shared visual change."
