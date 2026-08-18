@@ -32,7 +32,7 @@ Work from the repository that owns the requested outcome. The sibling repositori
 1. Make and validate the foundation change first.
 2. Commit the foundation revision before updating consumer gitlinks.
 3. Update each affected consumer submodule with `git submodule update --remote static/styles/foundation`.
-4. Check that consumers still exclude `styles/foundation/.git` through `ignored_static` in `zola.toml`.
+4. Check that consumers still exclude `styles/foundation/.git` and `styles/foundation/.agents/**` through `ignored_static` in `zola.toml`.
 5. Run `zola check --skip-external-links`, `zola build`, and `git diff --check` in every affected consumer.
 
 Do not use a remote stylesheet, duplicate the core into a local stylesheet, or change a submodule pointer without a matching foundation revision.
