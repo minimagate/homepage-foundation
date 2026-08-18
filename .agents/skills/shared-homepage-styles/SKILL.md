@@ -25,7 +25,7 @@ Favor shared selectors and aliases already present in the core. Do not create a 
 2. Edit `homepage-foundation/core.css`; never edit a checked-out submodule file from a consumer repository.
 3. Ensure the core still loads the local Geist Mono font with a path valid from `styles/foundation/core.css`.
 4. Commit the foundation revision, then update the submodule pointer in each affected site.
-5. Keep each consumer's `ignored_static` entries for `styles/foundation/.git` and `styles/foundation/.agents/**` so Zola never publishes submodule metadata or agent instructions.
+5. Keep each consumer's `ignored_static` entries for `styles/foundation/.git`, `styles/foundation/.agents`, and `styles/foundation/.agents/**` so Zola never publishes submodule metadata or agent instructions.
 
 ## Validate
 
