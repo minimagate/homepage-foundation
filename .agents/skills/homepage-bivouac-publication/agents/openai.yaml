@@ -1,0 +1,4 @@
+interface:
+  display_name: "Homepage Bivouac Publication"
+  short_description: "Maintain clear, release-accurate Bivouac pages"
+  default_prompt: "Use $homepage-bivouac-publication to update the Bivouac project website."

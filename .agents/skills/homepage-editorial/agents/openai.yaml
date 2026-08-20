@@ -1,0 +1,4 @@
+interface:
+  display_name: "Homepage Editorial"
+  short_description: "Write clear, accurate content for the homepage family"
+  default_prompt: "Use $homepage-editorial to add or revise content for one of the homepage sites."

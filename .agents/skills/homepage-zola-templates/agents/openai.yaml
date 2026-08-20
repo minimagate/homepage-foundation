@@ -1,0 +1,4 @@
+interface:
+  display_name: "Homepage Zola Templates"
+  short_description: "Maintain accessible shared page shells and components"
+  default_prompt: "Use $homepage-zola-templates to update a homepage site's Zola template or partial."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Homepage Research Publication"
+  short_description: "Publish Geometry of Meaning pages and charts safely"
+  default_prompt: "Use $homepage-research-publication to publish or review Geometry of Meaning archive material."
