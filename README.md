@@ -20,3 +20,17 @@ submodule and imports it first:
 Keep the core limited to components that should look and behave the same across
 all sites. Update consumers to the new submodule revision whenever the core
 changes, then run their normal Zola validation.
+
+## Agent skills
+
+The ignored `.agents/skills/` workspace contains the operating skill set for
+this site family:
+
+- `homepage-network` for cross-repository ownership and validation.
+- `shared-homepage-styles` for the common visual system.
+- `homepage-editorial` for shared voice, content structure, and metadata.
+- `homepage-zola-templates` for document shells, partials, metadata, and icons.
+- `homepage-research-publication` for Geometry of Meaning evidence and charts.
+- `homepage-bivouac-publication` for Bivouac components and release content.
+
+These complement, rather than replace, each consumer repository's `AGENTS.md`.
