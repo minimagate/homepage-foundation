@@ -1,12 +1,14 @@
 # homepage-foundation
 
-Shared visual foundation for the personal, research, and Bivouac websites.
+Shared visual foundation for the personal, research, Bivouac, and design websites.
 
 `core.css` owns the stable editorial system: local fonts, design tokens, page
 shell, navigation, headings, list rows, prose, footer, focus states, and
 responsive behavior. It deliberately excludes site-specific features such as
 research maths and figures, personal project metadata, and Bivouac component
-cards.
+cards. The shared aesthetic is compact and information-first: a warm reading
+surface, Verdana typography, conventional link states, and a `#5491ff` accent
+for the navigation, selection, and focus system.
 
 Each consuming site includes this repository as the `static/styles/foundation`
 submodule and imports it first:
