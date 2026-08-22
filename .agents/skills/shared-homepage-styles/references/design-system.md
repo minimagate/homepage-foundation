@@ -19,7 +19,7 @@ The sites use a narrow, Hacker News-inspired reading column rather than a produc
 - Lists: semantic linked rows with an underlined classic-colour title followed by plain, subdued 9pt role/category/date metadata in parentheses; stacked on mobile, baseline aligned on desktop.
 - Prose: compact black copy with bold, base-size headings; code and preformatted blocks remain restrained neutral surfaces.
 - Footer: external destinations use a tilde mark plus a visible lowercase label, followed by copyright and legal links; vertically stacked on mobile.
-- Section headings use a black typographic asterisk. Keep SVG icons only where they convey a site-specific function or identity.
+- Section headings use a black typographic asterisk. Footer destinations use an inline tilde. Avoid decorative icon assets; GitHub-specific controls may use the approved local GitHub image beside a visible label.
 
 ## Responsive and accessible invariants
 

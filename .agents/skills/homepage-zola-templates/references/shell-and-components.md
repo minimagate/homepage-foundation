@@ -17,7 +17,7 @@ The footer differs only in site-specific destinations and copyright holder. Keep
 - `.page-meta` / `.post-meta` is subdued, compact supporting context.
 - `.prose` is the sole normal Markdown rendering surface.
 
-The canonical external-link glyph is `partials/arrow.html`: decorative 24px outline SVG with a visible adjacent label. Site subject icons are local partials, not a generic icon dependency.
+Footer destinations use an inline typographic tilde with a visible adjacent label. Do not add decorative icon partials; when a GitHub-specific control needs a mark, use the approved local GitHub image asset with an empty alt attribute beside the visible label.
 
 ## Site navigation
 
