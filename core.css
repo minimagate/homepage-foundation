@@ -26,9 +26,9 @@
   --color-selection: var(--color-accent);
   --color-selection-text: #000;
   --color-focus: var(--color-text);
-  --color-link-classic: #000;
-  --color-link-visited: #000;
-  --color-link-underline: currentColor;
+  --color-link-classic: #0000ee;
+  --color-link-visited: #551a8b;
+  --color-link-active: #ff0000;
   --content-width: 38rem;
   --page-gutter: 1rem;
   --font-sans: Verdana, Geneva, sans-serif;
@@ -96,6 +96,8 @@ a {
 
 a:visited { color: var(--color-link-visited); }
 
+a:active { color: var(--color-link-active); }
+
 a:focus-visible {
   outline: 2px solid var(--color-focus);
   outline-offset: .2rem;
@@ -126,18 +128,9 @@ a:focus-visible {
   align-items: center;
   margin: 0;
   padding: .125rem .25rem;
-  transition: color .15s ease;
-  color: var(--color-text);
   font-size: 10pt;
   font-weight: 400;
   line-height: 1.25;
-  text-decoration: none;
-}
-
-.nav-items a:visited,
-.nav-items a:hover,
-.site-footer a:hover {
-  color: var(--color-text);
 }
 
 .page-heading,
@@ -205,14 +198,6 @@ a:focus-visible {
   text-decoration-color: currentColor;
   text-decoration-thickness: auto;
   text-underline-offset: auto;
-  transition: color .15s ease, text-decoration-color .15s ease;
-}
-
-.intro a:hover,
-.quote a:hover,
-.prose a:hover {
-  color: var(--color-text);
-  text-decoration-color: currentColor;
 }
 
 .list-wrap,
@@ -231,7 +216,6 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   margin-bottom: .35rem;
-  text-decoration: none;
 }
 
 .entry-row,
@@ -382,7 +366,9 @@ a:focus-visible {
   text-decoration: none;
 }
 
-.site-footer a:visited { color: var(--color-text-muted); }
+.site-footer a:visited,
+.site-footer a:hover,
+.site-footer a:active { color: var(--color-text-muted); }
 
 .external-link-icon {
   width: auto;
