@@ -18,8 +18,8 @@
   --color-background: #f6f6ef;
   --color-text: #000;
   --color-text-secondary: #000;
-  --color-text-muted: #828282;
-  --color-text-subtle: #828282;
+  --color-text-muted: #666;
+  --color-text-subtle: #666;
   --color-border: #e5e5e5;
   --color-surface: #fafafa;
   --color-accent: #5491ff;
@@ -53,7 +53,7 @@ html {
 
 body {
   max-width: var(--content-width);
-  margin: .5rem var(--page-gutter) 0;
+  margin: 0 var(--page-gutter);
   color: var(--color-text);
   background: var(--color-background);
   font-size: 10pt;
@@ -84,7 +84,7 @@ ol {
   flex: 1 1 auto;
   flex-direction: column;
   margin-top: 0;
-  padding: .25rem .5rem;
+  padding: 0 .5rem .25rem;
 }
 
 a {
