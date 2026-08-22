@@ -10,7 +10,7 @@ The sites use a narrow, Hacker News-inspired reading column rather than a produc
 - Base: `10pt`, `1.25` line-height at weight 400.
 - UI and headings remain deliberately small: headings stay at the base scale and use weight 700; metadata is `9pt`.
 - Sans uses Verdana with Geneva as fallback; local Geist Mono is reserved for code and technical identifiers.
-- The navigation has a compact 1rem separation below it. Lists and prose use a .75rem/.35rem rhythm.
+- The navigation has a compact 1rem separation below it. Lists and prose use a .75rem/.35rem rhythm, with .375rem below section headings.
 
 ## Shared components
 
