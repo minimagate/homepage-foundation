@@ -22,11 +22,11 @@
   --color-text-subtle: #666;
   --color-border: #e5e5e5;
   --color-surface: #fafafa;
-  --color-accent: #5491ff;
+  --color-accent: #1da1f2;
   --color-selection: var(--color-accent);
   --color-selection-text: #000;
-  --color-link-classic: #0000ee;
-  --color-link-visited: #551a8b;
+  --color-link-classic: #000;
+  --color-link-visited: #000;
   --color-link-underline: currentColor;
   --content-width: 38rem;
   --page-gutter: 1rem;

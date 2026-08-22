@@ -7,7 +7,7 @@ shell, navigation, headings, list rows, prose, footer, focus states, and
 responsive behavior. It deliberately excludes site-specific features such as
 research maths and figures, personal project metadata, and Bivouac component
 cards. The shared aesthetic is compact and information-first: a warm reading
-surface, Verdana typography, conventional link states, and a `#5491ff` accent
+surface, Verdana typography, black link states, and a `#1da1f2` accent
 for the navigation, selection, and focus system.
 
 Each consuming site includes this repository as the `static/styles/foundation`
