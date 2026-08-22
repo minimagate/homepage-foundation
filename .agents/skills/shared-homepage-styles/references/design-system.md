@@ -19,7 +19,7 @@ The sites use a narrow, Hacker News-inspired reading column rather than a produc
 - Lists: semantic linked rows, title first and subdued category/date second; stacked on mobile, baseline aligned on desktop.
 - Prose: compact black copy with bold, base-size headings; code and preformatted blocks remain restrained neutral surfaces.
 - Footer: external destinations use a tilde mark plus a visible lowercase label, followed by copyright and legal links; vertically stacked on mobile.
-- Section headings use a typographic asterisk. Keep SVG icons only where they convey a site-specific function or identity.
+- Section headings use a typographic asterisk in the shared accent colour. Keep SVG icons only where they convey a site-specific function or identity.
 
 ## Responsive and accessible invariants
 

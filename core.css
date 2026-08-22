@@ -181,7 +181,7 @@ a:focus-visible {
 .list-heading-with-icon::before {
   content: "*";
   flex: 0 0 auto;
-  color: var(--color-text);
+  color: var(--color-accent);
   font-weight: 400;
 }
 
