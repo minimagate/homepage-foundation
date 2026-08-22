@@ -243,7 +243,8 @@ a:focus-visible {
 
 .entry-row time,
 .post-row time,
-.project-category {
+.project-category,
+.work-role {
   color: var(--color-text-subtle);
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
@@ -251,6 +252,16 @@ a:focus-visible {
   line-height: 1.25;
   font-weight: 400;
 }
+
+.entry-row time::before,
+.post-row time::before,
+.project-category::before,
+.work-role::before { content: "("; }
+
+.entry-row time::after,
+.post-row time::after,
+.project-category::after,
+.work-role::after { content: ")"; }
 
 .essay-name,
 .project-name,
@@ -421,7 +432,8 @@ a:focus-visible {
 
   .entry-row time,
   .post-row time,
-  .project-category {
+  .project-category,
+  .work-role {
     width: auto;
     flex-shrink: 0;
   }
