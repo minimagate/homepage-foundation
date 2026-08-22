@@ -216,6 +216,7 @@ a:focus-visible {
   display: flex;
   flex-direction: column;
   margin-bottom: .35rem;
+  text-decoration: none;
 }
 
 .entry-row,
@@ -254,6 +255,7 @@ a:focus-visible {
 .post-name {
   color: inherit;
   font-weight: 400;
+  text-decoration: underline;
 }
 
 .page-meta,
