@@ -2,7 +2,7 @@
 
 ## Character
 
-The sites use a narrow, Hacker News-inspired reading column rather than a product-marketing layout. A warm off-white content field sits on white, with black text and links, muted grey metadata, and one `#1da1f2` accent. Content is carried by density, hierarchy, and familiar browser conventions—not panels, shadows, gradients, badges, or decorative effects.
+The sites use a narrow, Hacker News-inspired reading column rather than a product-marketing layout. A warm off-white content field sits on white, with black text and links, muted grey metadata, and one `#1bd9f2` accent. Content is carried by density, hierarchy, and familiar browser conventions—not panels, shadows, gradients, badges, or decorative effects.
 
 ## Type and spacing
 
@@ -14,7 +14,7 @@ The sites use a narrow, Hacker News-inspired reading column rather than a produc
 
 ## Shared components
 
-- Navigation: a `#1da1f2` strip with compact black text links; no logo lockup or active-pill treatment.
+- Navigation: a `#1bd9f2` strip with compact black text links; no logo lockup or active-pill treatment.
 - Links: normal and visited states are black with browser-like underlines; linked list rows omit the underline.
 - Lists: semantic linked rows, title first and subdued category/date second; stacked on mobile, baseline aligned on desktop.
 - Prose: compact black copy with bold, base-size headings; code and preformatted blocks remain restrained neutral surfaces.
