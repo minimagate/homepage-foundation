@@ -23,4 +23,4 @@ The sites use a narrow, Hacker News-inspired reading column rather than a produc
 
 ## Responsive and accessible invariants
 
-Do not lower the `360px` document minimum without a cross-site decision. Preserve `:focus-visible`, readable text contrast, tabular dates, semantic headings, and the mobile-first stacked order. New styling should use existing tokens and `rem` units and stay local unless every consumer needs it.
+Below `768px`, the warm page field spans the full viewport with no exterior side gutter or top offset; `.site-main` keeps its compact internal padding so text does not touch the screen edge. Do not lower the `360px` document minimum without a cross-site decision. Preserve `:focus-visible`, readable text contrast, tabular dates, semantic headings, and the mobile-first stacked order. New styling should use existing tokens and `rem` units and stay local unless every consumer needs it.

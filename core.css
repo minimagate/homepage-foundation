@@ -438,6 +438,12 @@ a:focus-visible {
 }
 
 @media (max-width: 767px) {
+  body {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+
   .footer-bottom {
     align-items: flex-start;
     flex-direction: column;
