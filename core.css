@@ -22,9 +22,10 @@
   --color-text-subtle: #666;
   --color-border: #e5e5e5;
   --color-surface: #fafafa;
-  --color-accent: #1bd9f2;
+  --color-accent: #ebebe2;
   --color-selection: var(--color-accent);
   --color-selection-text: #000;
+  --color-focus: var(--color-text);
   --color-link-classic: #000;
   --color-link-visited: #000;
   --color-link-underline: currentColor;
@@ -96,7 +97,7 @@ a {
 a:visited { color: var(--color-link-visited); }
 
 a:focus-visible {
-  outline: 2px solid var(--color-selection);
+  outline: 2px solid var(--color-focus);
   outline-offset: .2rem;
 }
 
@@ -181,7 +182,7 @@ a:focus-visible {
 .list-heading-with-icon::before {
   content: "*";
   flex: 0 0 auto;
-  color: var(--color-accent);
+  color: var(--color-text);
   font-weight: 400;
 }
 
