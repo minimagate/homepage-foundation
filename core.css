@@ -53,7 +53,7 @@ html {
 
 body {
   max-width: var(--content-width);
-  margin: .25rem var(--page-gutter) 0;
+  margin: .75rem var(--page-gutter) 0;
   color: var(--color-text);
   background: var(--color-background);
   font-size: 10pt;
